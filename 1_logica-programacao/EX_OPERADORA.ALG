@@ -1,8 +1,8 @@
 Algoritmo "ex_operadora"
+
 Var
    minutos : inteiro
    valorPago : real
-
 
 Inicio
    escreva("Digite o total de minutos: ")
