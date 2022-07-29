@@ -1,0 +1,67 @@
+package desafio_imposto;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Imposto {
+
+	public static void main(String[] args) {
+		double rendaAnualSalario;
+		double rendaAnualPrestacaoServico;
+		double rendaAnualGanhoCapital;
+		double gastosMedicos;
+		double gastosEducacionais;
+		double impostoSalario;
+		double impostoServiços;
+		double impostoGannhosCapital;
+		double maximoDedutivel;
+		double gastosDedutiveis;
+		double impostoBrutoTotal;
+		double abatimento;
+		double impostoDevido;
+		
+		Scanner scan = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		scan.useLocale(Locale.ENGLISH);
+		
+		System.out.print("Renda anual com salário: ");
+		rendaAnualSalario = scan.nextDouble();
+		/*System.out.print("Renda anual com prestação de serviço: ");
+		rendaAnualPrestacaoServico = scan.nextDouble();
+		System.out.print("Renda anual com ganho de capital: ");
+		rendaAnualGanhoCapital = scan.nextDouble();
+		System.out.print("Gastos médicos: ");
+		gastosMedicos = scan.nextDouble();
+		System.out.print("Gastos educacionais: ");
+		gastosEducacionais = scan.nextDouble();*/
+		
+		double mediaMensal = rendaAnualSalario / 12;
+		double percentualImposto;
+		if (mediaMensal < 3000.00) {
+			percentualImposto = 0; 
+		} else if (mediaMensal < 5000) {
+			percentualImposto = 10;
+		} else {
+			percentualImposto = 20;
+		}
+		
+		impostoSalario = rendaAnualSalario * percentualImposto / 100;	
+			
+		System.out.println("RELATÓRIO DE IMPOSTO DE RENDA");
+		System.out.println();
+		System.out.println("CONSOLIDADO DE RENDA:");
+		System.out.printf("Imposto sobre salário: %.2f%n", impostoSalario);
+		System.out.println("teste");
+		
+
+		
+		
+		
+		
+		
+		
+		
+		scan.close();
+	}
+
+}
