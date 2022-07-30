@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+D:\[Workspace]\dev-superior\1_logica-programacao\desafios\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2638248404.index
-2250713540.index
