@@ -1,0 +1,38 @@
+# Formação Desenvolvedor Moderno - Ementa
+**Progresso:** :chart_with_upwards_trend: <kbd>**12.5%**</kbd>
+- ## Lógica de Programação 
+- [x] 01. Introdução e orientações 
+- [x] 02. Conceitos de programação
+- [x] 03. Estrutura sequencial
+- [x] 04. Estrutura condicional
+- [ ] 05. Estruturas repetitivas
+- [ ] 06. Vetores
+- [ ] 07. Matrizes
+- [ ] 08. Funções
+- ## Git e Github
+- [ ] 01. Introdução a Git e Github
+- [ ] 02. Resolvendo problemas comuns
+- [ ] 03. Branches e trabalho em equipe
+- ## HTML e CSS
+- [ ] 01. Introdução
+- [ ] 02. HTML
+- [ ] 03. CSS
+- [ ] 04. Estudo de caso responsividade
+- ## Programação Moderna
+- [ ] 01. Introdução à linguagem Java
+- [ ] 02. Estrutura sequencial
+- [ ] 03. Estrutura condicional
+- [ ] 04. Estruturas repetitivas
+- [ ] 05. Outros tópicos básicos em Java
+- [ ] 06. Classes, atributos, métodos, static
+- [ ] 07. Construtores, this, sobrecarga, encapsulamento
+- [ ] 08. Memória, vetores, listas
+- [ ] 09. Matrizes
+- [ ] 10. Trabalhando com datas
+- [ ] 11. Enumerações e Composição
+- [ ] 12. Herança e Polimorfismo
+- [ ] 13. Tratamento de exceções
+- [ ] 14. Trabalhando com arquivos
+- [ ] 15. Interfaces
+- [ ] 16. Generics, Set, Map
+- [ ] 17. Programação funcional, expressões lambda
